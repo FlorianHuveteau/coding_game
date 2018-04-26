@@ -11,3 +11,11 @@ my_array.map(&:to_i)
 ```ruby
 my_array.split.map{|c|c.to_i.chr}*""
 ```
+* To create a array from a range
+```ruby
+(1..n).to_a
+```
+* to multiply all elements of an array
+```ruby
+ar.inject(:*)
+```
