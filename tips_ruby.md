@@ -1,4 +1,4 @@
-# String manipulation
+# Array manipulation
 * To print an array
 ```ruby
 puts my_array*""
