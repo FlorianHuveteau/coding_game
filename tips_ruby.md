@@ -19,3 +19,13 @@ my_array.split.map{|c|c.to_i.chr}*""
 ```ruby
 ar.inject(:*)
 ```
+# Input / Ouput
+* gets
+```ruby
+c,*p=*$<
+p[0].split.map{|x|$><<x.to_i.chr}
+```
+* puts
+```ruby
+$>
+```
