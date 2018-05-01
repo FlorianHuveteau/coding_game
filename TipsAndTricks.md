@@ -49,7 +49,11 @@ print(*seq[::2]+seq[1::2],sep='\n')
 a=map(int,(input()+" "+input()).split())
 # 
 ```
-
+* To count number of times a set of specific character appears in a string
+```python
+a=map(input().count,"ABCD")
+# 
+```
 # Math
 * To round a float without using math.ceil function
 ```python
