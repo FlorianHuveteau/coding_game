@@ -10,7 +10,7 @@ a,b,c = map(bin,map(int,input().split()))
 a,b,c = map(lambda e:bin(int(e)),input())
 ```
 
-* to use a shorter name for a function that is often use
+* To use a shorter name for a function that is often use
 ```python
 i=input
 i()
@@ -18,6 +18,10 @@ i()
 import math
 f=math.factorial
 f(10)
+```
+* To read input and print its value 
+```python
+while 1:print(input())
 ```
 # Sequence
 
