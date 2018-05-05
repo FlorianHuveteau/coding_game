@@ -67,6 +67,13 @@ x = 1.24
 # When casting to int, you get the integer part
 int(x+(x%1>0)) # = int(1.24 + 1) => 2
 ```
+* To sum values of n numbers from 1 to n
+```python
+n = 9
+s = sum(range(n))
+# or shorter version
+s = (n+1)*(n/2)
+```
 
 # Comparison
  
