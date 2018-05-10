@@ -25,7 +25,7 @@ ar.inject(:*)
 c,*p=*$<
 p[0].split.map{|x|$><<x.to_i.chr}
 ```
-* puts
+* to insert element e at index i in sequence s
 ```ruby
-$>
+p s.insert i.to_i,e
 ```
